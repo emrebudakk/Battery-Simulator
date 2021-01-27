@@ -1,0 +1,68 @@
+header {
+    text-align: center;
+}
+
+section {
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+    margin: 2vw 8vw;
+    display: flex;
+
+}
+
+#plus {
+    border-radius: 5px;
+    width: 12vw;
+    height: 8vh;
+    margin-top: 3vh;
+    font-size: medium;
+    color: white;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    background-color: rgb(9, 139, 16);
+    box-shadow: 0 0 0 3px black;
+}
+
+#minus {
+    border-radius: 5px;
+    width: 12vw;
+    height: 8vh;
+    margin-top: 3vh;
+    font-size: medium;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    color: white;
+    background-color: rgb(250, 7, 7);
+    box-shadow: 0 0 0 3px black;
+}
+
+.battery-section {
+    width: 15vw;
+    height: 14vh;
+    border: solid black 2px;
+}
+
+#battery-top {
+    width: 5vw;
+    height: 3vh;
+    background-color: black;
+}
+
+#battary-countaner {
+    padding-top: 3vh;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#button-countaner {
+    width: 20vw;
+    height: 20vh;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
